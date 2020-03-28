@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        producer:
+          destination: vikas
+          group: testgroup
+          prefix: local-
